@@ -29,3 +29,30 @@ main{
     border: 2px solid red;
     display: flex;
 }
+
+
+/* Selectores de clase */
+
+/* Sección verde */
+
+.left-section{
+    background-color: var(--green-section-color);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 135px 60px;
+    width: calc(423px - (60px * 2));
+    height: calc(100% - (135px * 2)); 
+}
+
+.right-section{
+    background-color: white;
+    color: var(--black-letters-color);
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 91px 103px 38px 81px;
+    width: calc(463px - 103px - 81px);
+    height: calc(100% - 91px - 38px); 
+}
