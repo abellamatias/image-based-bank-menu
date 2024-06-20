@@ -40,11 +40,25 @@ main{
     color: white;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    align-items: center;
     padding: 135px 60px;
     width: calc(423px - (60px * 2));
-    height: calc(100% - (135px * 2)); 
+    height: calc(590px - 135px - 135px); 
 }
+
+.left-section img{
+    width: 80%;
+    height: 80%;
+}
+
+.left-section h1{
+    margin: 0;
+    text-align: center;
+}
+
+
+
+/* Sección blanca */
 
 .right-section{
     background-color: white;
@@ -56,3 +70,4 @@ main{
     width: calc(463px - 103px - 81px);
     height: calc(100% - 91px - 38px); 
 }
+
